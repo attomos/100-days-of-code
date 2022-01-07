@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  kbd {
+    @apply rounded-md border border-gray-200 p-1 px-2;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>D2P</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div
+        id="backdrop"
+        class="fixed flex w-screen h-screen bg-black/30 hidden"
+      >
+        <div
+          class="my-auto h-2/3 w-2/4 flex mx-auto content-center align-center"
+        >
+          <div
+            id="form-container"
+            class="p-4 w-full bg-white drop-shadow-lg rounded-lg"
+          >
+            <form action role="search">
+              <input
+                id="search-bar"
+                class="w-full border-solid border-2 rounded-md border-gray-100"
+                type="text"
+                placeholder="Search something..."
+              />
+            </form>
+
+            <p class="pt-6 text-gray-800 leading-8">
+              Press <kbd>Esc</kbd> or <kbd class="meta-key">⌘</kbd>&nbsp;<kbd
+                >K</kbd
+              >
+              to close the search dialog. <br />
+              You can click outside of this box to close the search dialog.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h1 class="text-center text-4xl font-bold pt-8">
+        Press <kbd class="meta-key">⌘</kbd>&nbsp;<kbd>K</kbd> to search for
+        something
+      </h1>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

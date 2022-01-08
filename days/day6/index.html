@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HSL Slider</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex justify-center p-4">
+      <div class="fixed">
+        <div class="control-container">
+          <input
+            class="w-full col-span-2 px-2"
+            min="0"
+            max="359"
+            value="0"
+            type="range"
+            id="hue-range"
+          />
+          <div class="control">hue: <span id="hue"></span></div>
+        </div>
+
+        <div class="control-container">
+          <input
+            class="w-full col-span-2 px-2"
+            type="range"
+            min="0"
+            max="100"
+            value="100"
+            id="saturation-range"
+          />
+          <div class="control">saturation: <span id="saturation"></span>%</div>
+        </div>
+        <div class="control-container">
+          <input
+            class="w-full col-span-2 px-2"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            id="lightness-range"
+          />
+          <div class="control">lightness: <span id="lightness"></span>%</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center items-center h-screen">
+      <div id="circle" class="circle mr-4"></div>
+      <div id="box" class="box"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

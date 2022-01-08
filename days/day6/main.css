@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .circle {
+    @apply w-48 h-48 rounded-full;
+  }
+
+  .box {
+    @apply w-48 h-48 rounded-lg;
+  }
+
+  .control-container {
+    @apply grid grid-cols-3 my-1 p-1;
+  }
+
+  .control {
+    @apply text-center border border-gray-200 inline-block rounded-md px-2 py-1 ml-2 text-cyan-400 dark:bg-gray-800 w-36;
+  }
+}

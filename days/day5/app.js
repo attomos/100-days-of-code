@@ -36,6 +36,7 @@ window.addEventListener("keydown", function (e) {
     String.fromCharCode(e.keyCode).toLowerCase() === "k"
   ) {
     showSearchPopup = !showSearchPopup;
+    e.preventDefault();
   }
 
   if (showSearchPopup && e.keyCode === 27) {

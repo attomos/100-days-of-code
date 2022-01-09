@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Twitter Space Reminder Clone</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="text-4xl pt-4 font-bold text-center">
+      Twitter Space Reminder Clone
+    </h1>
+
+    <div class="flex pt-12">
+      <div
+        class="
+          rounded-xl
+          flex flex-col
+          max-w-screen-sm
+          mx-2
+          md:m-auto
+          text-white
+          bg-gradient-to-r
+          from-blue-600
+          to-purple-400
+          px-8
+          py-4
+        "
+      >
+        <div class="flex flex-row">
+          <div class="flex flex-col mr-5">
+            <div class="">
+              <span class="font-semibold">Tomorrow at 8:00 PM</span>
+              <span>·</span>
+              <span>Atom Chaipreecha</span>
+            </div>
+            <div class="mt-2">
+              <span class="font-bold text-lg break-words">
+                Building #100DaysOfCode projects from what I learned is
+                enjoyable
+              </span>
+            </div>
+          </div>
+          <div>
+            <div
+              class="
+                w-[66px]
+                h-[66px]
+                hover:scale-125 hover:cursor-pointer
+                transition
+                duration-200
+                bg-white
+                rounded-full
+                flex
+              "
+            >
+              <img
+                class="w-16 rounded-full m-auto"
+                src="https://github.com/attomos.png"
+                alt="Profile pic"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8"></div>
+        <a
+          href="https://twitter.com/attomos"
+          target="_blank"
+          class="
+            text-center
+            w-full
+            py-3
+            font-bold
+            rounded-3xl
+            reminder-button reminder-button-transition
+            duration-200
+          "
+        >
+          Set reminder
+        </a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

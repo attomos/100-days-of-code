@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reminder-button {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.reminder-button:hover {
+  background-color: rgba(26, 26, 26, 0.3);
+}
+
+.reminder-button-transition {
+  transition-property: background-color, box-shadow;
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .game-card {
+    @apply bg-slate-50
+      py-14 px-8 m-4
+      md:py-36 md:px-24 md:m-8
+      w-full rounded-xl text-2xl
+      font-sans
+      font-semibold
+      drop-shadow-lg
+      hover:cursor-pointer hover:translate-x-3 hover:-translate-y-3 duration-300;
+    font-family: "IBM Plex Mono", monospace;
+  }
+}

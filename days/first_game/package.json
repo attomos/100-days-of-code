@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "dev": "postcss main.css -o dist/output.css --watch"
+    "dev": "postcss main.css -o dist/output_day9.css --watch"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.4.0",

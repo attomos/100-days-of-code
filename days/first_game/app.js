@@ -1,9 +1,5 @@
 document.querySelectorAll(".game-card").forEach((card) => {
   card.addEventListener("click", (e) => {
-    card.classList.toggle("blur-md");
+    card.classList.toggle("active");
   });
-
-  // card.addEventListener("mouseleave", (e) => {
-  //   card.classList.remove("blur-lg");
-  // });
 });

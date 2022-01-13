@@ -17,32 +17,24 @@
       <div class="m-auto">
         <h1 class="text-4xl mt-4 font-ibm-plex-mono">Card Matching Game</h1>
         <div
-          class="
-            flex flex-col
-            gap-3
-            py-6
-            px-4
-            border border-gray-300
-            my-6
-            font-ibm-plex-mono
-          "
+          class="flex flex-col gap-3 py-6 px-4 border border-gray-300 my-6 font-ibm-plex-mono"
         >
           <div class="flex justify-between">
             <button
-              class="bg-slate-300 px-2 py-3 rounded-lg cursor-not-allowed"
-              disabled
+              id="pause-button"
+              class="px-2 py-3 rounded-lg outline bg-lime-500"
             >
-              Start/Pause
+              Play
             </button>
             <button
-              class="bg-slate-300 px-2 py-3 rounded-lg cursor-not-allowed"
-              disabled
+              id="reset-button"
+              class="bg-slate-300 px-2 py-3 rounded-lg outline"
             >
               Reset
             </button>
           </div>
           <div class="px-2 py-4 text-center">
-            Time elapsed: <span>00:00</span> minutes
+            Time elapsed: <span id="elapsed-time">0</span> seconds
           </div>
         </div>
       </div>
@@ -50,83 +42,76 @@
     <div class="flex flex-col">
       <div class="m-auto">
         <div
-          class="
-            flex flex-col
-            p-8
-            rounded-2xl
-            bg-gradient-to-r
-            from-green-100
-            to-pink-200
-          "
+          class="flex flex-col p-8 rounded-2xl bg-gradient-to-r from-green-100 to-pink-200"
         >
           <div class="grid grid-cols-5 gap-8">
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍇</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
 
             <div class="game-card">
               <div class="game-card-inner">
                 <div class="game-card-front"></div>
-                <div class="game-card-back">🍎</div>
+                <div class="game-card-back"></div>
               </div>
             </div>
           </div>

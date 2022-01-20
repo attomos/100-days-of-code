@@ -502,9 +502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"day14@workspace:packages/day14":
+"day14@workspace:days/day14":
   version: 0.0.0-use.local
-  resolution: "day14@workspace:packages/day14"
+  resolution: "day14@workspace:days/day14"
   dependencies:
     "@tailwindcss/forms": ^0.4.0
     autoprefixer: ^10.4.2
@@ -514,9 +514,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"day4-aca3e8@workspace:packages/day4":
+"day4-3969d8@workspace:days/day4":
   version: 0.0.0-use.local
-  resolution: "day4-aca3e8@workspace:packages/day4"
+  resolution: "day4-3969d8@workspace:days/day4"
   dependencies:
     "@tailwindcss/forms": ^0.4.0
     autoprefixer: ^10.4.2
@@ -526,9 +526,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"day5-300581@workspace:packages/day5":
+"day5-a1b251@workspace:days/day5":
   version: 0.0.0-use.local
-  resolution: "day5-300581@workspace:packages/day5"
+  resolution: "day5-a1b251@workspace:days/day5"
   dependencies:
     "@tailwindcss/forms": ^0.4.0
     autoprefixer: ^10.4.2
@@ -538,9 +538,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"day6-80d14d@workspace:packages/day6":
+"day6-d82188@workspace:days/day6":
   version: 0.0.0-use.local
-  resolution: "day6-80d14d@workspace:packages/day6"
+  resolution: "day6-d82188@workspace:days/day6"
   dependencies:
     "@tailwindcss/forms": ^0.4.0
     autoprefixer: ^10.4.2
@@ -550,9 +550,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"day7-4349dc@workspace:packages/day7":
+"day7-9b3b3f@workspace:days/day7":
   version: 0.0.0-use.local
-  resolution: "day7-4349dc@workspace:packages/day7"
+  resolution: "day7-9b3b3f@workspace:days/day7"
   dependencies:
     "@tailwindcss/forms": ^0.4.0
     autoprefixer: ^10.4.2

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="border border-r-red-600 h-screen min-w-max">
+        <div class="px-2 text-xl py-4 border border-b-red-600">
+          Yarn Workspaces Showcase
+        </div>
+        <ul class="mt-2" id="only-list">
+          <a href="#"><li class="menu-item">Before</li></a>
+          <a href="#"><li class="menu-item">After</li></a>
+        </ul>
+      </div>
+
+      <div id="main">
+        <div data-index="0" class="wrapper flex flex-col h-screen p-2">
+          <h1 class="text-2xl py-2">Disk Usage Before Yarn Workspaces</h1>
+          <div class="flex flex-grow overflow-auto content">
+            <p>
+              In my #100DaysOfCode projects, I included Tailwind CSS in many
+              days (day 4, 5, 6, 7).<br />
+              This introduces node_module folders on each one of these folders
+              with pretty much duplicate content.
+
+              <a href="./images/1.png" target="_blank"
+                ><img
+                  class="w-2/3 m-0 inline"
+                  src="./images/1.png"
+                  alt="Disk Usage Before Yarn Workspaces"
+              /></a>
+            </p>
+          </div>
+        </div>
+        <div data-index="1" class="wrapper flex flex-col h-screen p-2">
+          <h1 class="text-2xl py-2">Disk Usage After Yarn Workspaces</h1>
+          <div class="flex flex-grow overflow-auto content">
+            <p>
+              As you can see from the screenshots below, disk usage went down
+              drastically.<br />
+              It puts all dependencies as zip files under
+              <span class="bg-pink-100 rounded-md p-1">.yarn/cache</span>
+              folder.<br />
+              As a result, my packages (day 4, 5, 6, 7, and 13) are now contain
+              only source code.
+
+              <a href="./images/3.png" target="_blank"
+                ><img
+                  class="w-2/3 inline"
+                  src="./images/3.png"
+                  alt="Disk Usage Before Yarn Workspaces"
+              /></a>
+              <a href="./images/4.png" target="_blank"
+                ><img
+                  class="w-2/3 inline"
+                  src="./images/4.png"
+                  alt="Disk Usage Before Yarn Workspaces"
+              /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

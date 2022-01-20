@@ -502,6 +502,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"day14@workspace:packages/day14":
+  version: 0.0.0-use.local
+  resolution: "day14@workspace:packages/day14"
+  dependencies:
+    "@tailwindcss/forms": ^0.4.0
+    autoprefixer: ^10.4.2
+    postcss: ^8.4.5
+    postcss-cli: ^9.1.0
+    tailwindcss: ^3.0.11
+  languageName: unknown
+  linkType: soft
+
 "day4-aca3e8@workspace:packages/day4":
   version: 0.0.0-use.local
   resolution: "day4-aca3e8@workspace:packages/day4"

@@ -11,7 +11,9 @@ function handleActiveState(idx, fromLocalStorage, item) {
   }
 }
 
-let fromLocalStorage = localStorage.getItem("selectedTab") || 0;
+const SELECTED_TAB_KEY = "day14_selectedTab";
+
+let fromLocalStorage = localStorage.getItem(SELECTED_TAB_KEY) || 0;
 
 mainPart
   .querySelectorAll(".wrapper")
@@ -22,11 +24,11 @@ mainPart
   .classList.remove("hidden");
 
 items.forEach((item, idx) => {
-  handleActiveState(idx, localStorage.getItem("selectedTab") || 0, item);
+  handleActiveState(idx, localStorage.getItem(SELECTED_TAB_KEY) || 0, item);
 
   item.addEventListener("click", () => {
-    localStorage.setItem("selectedTab", idx);
-    fromLocalStorage = localStorage.getItem("selectedTab") || 0;
+    localStorage.setItem(SELECTED_TAB_KEY, idx);
+    fromLocalStorage = localStorage.getItem(SELECTED_TAB_KEY) || 0;
 
     items.forEach((item, idx) => {
       handleActiveState(idx, fromLocalStorage, item);

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active {
+    @apply bg-slate-300;
+  }
+
+  .menu-item {
+    @apply px-4 py-1 hover:bg-slate-300 select-none hover:cursor-pointer;
+  }
+
+  .div-container {
+    @apply bg-green-200 p-4 rounded-lg;
+  }
+
+  .sm-box {
+    @apply bg-white w-20 h-20 m-2 rounded-md flex justify-center items-center;
+  }
+
+  .sm-box-no-w {
+    @apply bg-white h-20 m-2 rounded-md flex justify-center items-center;
+  }
+
+  .sm-box-no-h {
+    @apply bg-white w-20 m-2 rounded-md flex justify-center items-center;
+  }
+
+  .sm-box-w-full {
+    @apply bg-white w-full h-20 m-2 rounded-md flex justify-center items-center;
+  }
+
+  .box {
+    @apply bg-white w-32 h-32 m-2 rounded-md flex justify-center items-center;
+  }
+}

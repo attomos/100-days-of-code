@@ -27,6 +27,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:days/day14"
       },
       {
+        "name": "day17",
+        "reference": "workspace:days/day17"
+      },
+      {
         "name": "day4-3969d8",
         "reference": "workspace:days/day4"
       },
@@ -48,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackExclusionList": [
       ["100-days-of-code", ["workspace:."]],
       ["day14", ["workspace:days/day14"]],
+      ["day17", ["workspace:days/day17"]],
       ["day4-3969d8", ["workspace:days/day4"]],
       ["day5-a1b251", ["workspace:days/day5"]],
       ["day6-d82188", ["workspace:days/day6"]],
@@ -647,6 +652,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./days/day14/",
           "packageDependencies": [
             ["day14", "workspace:days/day14"],
+            ["@tailwindcss/forms", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:0.4.0"],
+            ["autoprefixer", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:10.4.2"],
+            ["postcss", "npm:8.4.5"],
+            ["postcss-cli", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:9.1.0"],
+            ["tailwindcss", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:3.0.15"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["day17", [
+        ["workspace:days/day17", {
+          "packageLocation": "./days/day17/",
+          "packageDependencies": [
+            ["day17", "workspace:days/day17"],
             ["@tailwindcss/forms", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:0.4.0"],
             ["autoprefixer", "virtual:84b0cdeaad887c79b2a556ddc27d629dae3d9d52ff9f0762b901550fac0a435edf6b8d6e8e63f33052654b499b905fa0cbf6f99693d8bd07a83de663eb60af85#npm:10.4.2"],
             ["postcss", "npm:8.4.5"],

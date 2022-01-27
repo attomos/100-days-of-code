@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container m-auto flex">
+      <div class="h-screen px-2 border-r border-gray-300 w-48">
+        bio and stuff
+      </div>
+      <div class="h-full w-full md:max-w-5xl">
+        <form class="">
+          <ol class="flex flex-col md:flex-row md:flex-wrap px-2">
+            <li class="md:w-1/2 p-4">
+              <div class="box">
+                <div class="flex content-between">
+                  <div class="flex-1">bear_todo_counter</div>
+                  <div class="select-none cursor-grab">
+                    <span title="Drag to reorder">::</span>
+                  </div>
+                </div>
+                <p class="mt-3 mb-2 text-[12px]">
+                  🐻 A simple Python script to put a TODO progress in Bear
+                  note's title.
+                </p>
+                <p class="text-[12px]">language and stars</p>
+              </div>
+            </li>
+            <li class="md:w-1/2 p-4">
+              <div class="box">
+                <div>yarnlog</div>
+                <p class="mt-3 mb-2">
+                  🧶 Download Apache Hadoop YARN log to your local machine.
+                </p>
+                <p>language and stars</p>
+              </div>
+            </li>
+            <li class="md:w-1/2 p-4">
+              <div class="box">
+                <div>100-days-of-code</div>
+                <p class="mt-3 mb-2">
+                  Fork this template for the 100 days journal - to keep yourself
+                  accountable (multiple languages available)
+                </p>
+                <p>language and stars</p>
+              </div>
+            </li>
+            <li class="md:w-1/2 p-4">
+              <div class="box">
+                <div>qmk_firmware</div>
+                <p class="mt-3 mb-2">
+                  Open-source keyboard firmware for Atmel AVR and Arm USB
+                  families
+                </p>
+                <p>language and stars</p>
+              </div>
+            </li>
+          </ol>
+        </form>
+      </div>
+    </div>
+
+    <template id="pinned-repo">
+      <li class="md:w-1/2 p-4">
+        <div class="box">
+          <div class="flex content-between">
+            <div class="flex-1">bear_todo_counter</div>
+            <div class="select-none cursor-grab">
+              <span title="Drag to reorder">::</span>
+            </div>
+          </div>
+          <p class="mt-3 mb-2 text-[12px]">
+            🐻 A simple Python script to put a TODO progress in Bear note's
+            title.
+          </p>
+          <p class="text-[12px]">language and stars</p>
+        </div>
+      </li>
+    </template>
+    <script>
+      const template = document.getElementById("my-paragraph");
+      const templateContent = template.content;
+    </script>
+  </body>
+</html>

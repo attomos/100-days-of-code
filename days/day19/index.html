@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container m-auto flex flex-col sm:flex-row">
+      <div class="h-full sm:h-screen px-2 sm:border-r sm:border-gray-300 w-48">
+        bio and stuff
+      </div>
+      <div class="h-full w-full md:max-w-5xl">
+        <form class="">
+          <ol
+            id="only-list"
+            class="flex flex-col md:flex-row md:flex-wrap px-2"
+          ></ol>
+
+          <hr />
+          <ol class="flex flex-col md:flex-row md:flex-wrap px-2">
+            <li class="p-4 w-1/2" draggable="true">
+              <div class="box">
+                <div class="flex content-between">
+                  <div id="repo-name" class="flex-1">bear_todo_counter</div>
+                  <div class="select-none cursor-grab">
+                    <span title="Drag to reorder">::</span>
+                  </div>
+                </div>
+                <p id="repo-description" class="mt-3 mb-2 text-[12px] nani">
+                  Fork this template for the 100 days journal - to keep yourself
+                  accountable (multiple languages available)
+                </p>
+                <p class="text-[12px]">language and stars</p>
+              </div>
+            </li>
+            <li class="p-4 w-1/2" draggable="true">
+              <div class="box">
+                <div class="flex content-between">
+                  <div id="repo-name" class="flex-1">bear_todo_counter</div>
+                  <div class="select-none cursor-grab">
+                    <span title="Drag to reorder">::</span>
+                  </div>
+                </div>
+                <p id="repo-description" class="mt-3 mb-2 text-[12px] nani">
+                  🐻 A simple Python script to put a TODO progress in Bear
+                  note's title.
+                </p>
+                <p class="text-[12px]">language and stars</p>
+              </div>
+            </li>
+            <li class="p-4 w-1/2" draggable="true">
+              <div class="box">
+                <div class="flex content-between">
+                  <div id="repo-name" class="flex-1">bear_todo_counter</div>
+                  <div class="select-none cursor-grab">
+                    <span title="Drag to reorder">::</span>
+                  </div>
+                </div>
+                <p id="repo-description" class="mt-3 mb-2 text-[12px] nani">
+                  🐻 A simple Python script to put a TODO progress in Bear
+                  note's title.
+                </p>
+                <p class="text-[12px]">language and stars</p>
+              </div>
+            </li>
+            <li class="p-4 w-1/2" draggable="true">
+              <div class="box">
+                <div class="flex content-between">
+                  <div id="repo-name" class="flex-1">bear_todo_counter</div>
+                  <div class="select-none cursor-grab">
+                    <span title="Drag to reorder">::</span>
+                  </div>
+                </div>
+                <p id="repo-description" class="mt-3 mb-2 text-[12px] nani">
+                  🐻 A simple Python script to put a TODO progress in Bear
+                  note's title.
+                </p>
+                <p class="text-[12px]">language and stars</p>
+              </div>
+            </li>
+          </ol>
+        </form>
+      </div>
+    </div>
+
+    <template id="pinned-repo-template"
+      >/
+      <link href="./dist/output.css" rel="stylesheet" />
+
+      <li class="p-4" draggable="false">
+        <div class="box">
+          <div class="flex content-between">
+            <div id="repo-name" class="flex-1">bear_todo_counter</div>
+            <div class="select-none cursor-grab">
+              <span title="Drag to reorder">::</span>
+            </div>
+          </div>
+          <p id="repo-description" class="mt-3 mb-2 text-[12px] nani">
+            🐻 A simple Python script to put a TODO progress in Bear note's
+            title.
+          </p>
+          <p class="text-[12px]">language and stars</p>
+        </div>
+      </li>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
